@@ -43,7 +43,7 @@ const products = [
 const faqs = [
   { question: 'Cara order key-nya bagaimana?', answer: 'Pilih paket, tekan tombol order, lalu WhatsApp owner akan terbuka dengan pesan yang sudah disiapkan. Owner akan bantu proses sampai key siap dipakai.' },
   { question: 'Bisa minta bantuan setelah beli?', answer: 'Bisa. Kirim detail order melalui WhatsApp yang sama. Nixx membantu instalasi dan pertanyaan akses selama jam respons owner.' },
-  { question: 'Apa isi paket reseller?', answer: 'Dengan Rp120.000, kamu mendapat akses reseller group dan Open Source NixxVvip script untuk mulai membangun circle dan penawaranmu sendiri.' },
+  { question: 'Apa isi paket reseller?', answer: 'Dengan Rp120.000, kamu mendapat Reseller Access, source code Script Nixx, web store, dan onboarding owner untuk mulai mengembangkan versi kamu sendiri.' },
   { question: 'Open Roblox Lua Script itu apa?', answer: 'Ini adalah produk script yang detail dan harganya dibahas langsung lewat DM owner, supaya kebutuhan dan scope script bisa disamakan dulu.' },
 ];
 
@@ -202,8 +202,43 @@ function Home() {
           <div className="reseller-panel">
             <div>
               <span className="eyebrow">03 / build your circle</span>
-              <h2>Turn access into your own lane.</h2>
-              <p>Masuk ke reseller circle Nixx dengan satu paket lengkap. Cocok untuk kamu yang ingin menjual kembali akses atau mengembangkan setup sendiri.</p>
+              <h2>Turn Access Into Your Own Lane.</h2>
+              <p>Masuk ke <strong>Reseller Circle Nixx</strong> dengan paket lengkap untuk kamu yang ingin menjual kembali, mengembangkan, dan mengkreasikan Script Nixx sesuai kebutuhanmu.</p>
+
+              <div className="reseller-content-copy">
+                <h3>🚀 Apa yang Kamu Dapatkan?</h3>
+
+                <h4>🔑 Akses Reseller</h4>
+                <p>Dapatkan akses khusus reseller untuk menjual kembali produk dan akses Script Nixx kepada pelangganmu.</p>
+
+                <h4>💻 Source Code Script</h4>
+                <p>Dapatkan <strong>source code script</strong> yang bisa kamu pelajari, modifikasi, dan kreasikan kembali sesuai kebutuhanmu.</p>
+                <p className="reseller-note">Buat versi kamu sendiri, tambahkan fitur, ubah tampilan, atau kembangkan sistemnya sesuai konsep yang kamu inginkan.</p>
+
+                <h4>🛒 Web Store</h4>
+                <p>Dapatkan <strong>web store</strong> untuk membantu kamu menjual script dan akses secara lebih profesional.</p>
+                <ul>
+                  <li><Check size={17} /> 🏪 Halaman toko sendiri</li>
+                  <li><Check size={17} /> 📦 Tampilan produk</li>
+                  <li><Check size={17} /> 🔑 Sistem penjualan akses</li>
+                  <li><Check size={17} /> 👥 Kelola pelanggan</li>
+                  <li><Check size={17} /> ⚡ Proses order lebih praktis</li>
+                </ul>
+
+                <h4>🎨 Bebas Dikreasikan</h4>
+                <p>Kamu bisa mengembangkan setup yang diberikan dan menyesuaikannya dengan <strong>branding, fitur, serta konsep toko kamu sendiri</strong>.</p>
+
+                <h4>📈 Bangun Bisnis Sendiri</h4>
+                <p>Jadikan reseller Nixx sebagai langkah awal untuk membangun <strong>store dan produk digital versi kamu sendiri</strong>.</p>
+
+                <h3>💎 Satu Paket, Banyak Kemungkinan</h3>
+                <p><strong>Script + Source Code + Reseller Access + Web Store</strong></p>
+                <p>Semua yang kamu butuhkan untuk mulai membangun dan mengembangkan ekosistem script milikmu sendiri.</p>
+
+                <h3>🔥 Siap Bergabung?</h3>
+                <p><strong>Join Reseller Nixx</strong> dan mulai bangun versi kamu sendiri.</p>
+              </div>
+
               <div className="hero-actions">
                 <WhatsAppButton product="Reseller Nixx VVIP" price="Rp120.000" label="Join reseller" className="button-dark" />
               </div>
@@ -212,6 +247,7 @@ function Home() {
               <ul>
                 <li><Check size={17} /> Reseller group access</li>
                 <li><Check size={17} /> Open Source NixxVvip script</li>
+                <li><Check size={17} /> Web Store</li>
                 <li><Check size={17} /> Direct owner onboarding</li>
               </ul>
               <div className="reseller-price"><small>complete circle pass</small>Rp120.000</div>
